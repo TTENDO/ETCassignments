@@ -4,7 +4,7 @@ for (let i=0; i < students.length; i++)
                     marks = students[i][1];
                     name = students[i][0];
                     if (marks < 60){
-                    console.log("Grade : F");      
+                    console.log(name + " " + "has" + " " + "Grade : F");      
                     } 
                     else if (marks < 70) 
                     {
